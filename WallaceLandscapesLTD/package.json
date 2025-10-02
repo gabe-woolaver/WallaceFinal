@@ -1,6 +1,5 @@
 {
   "name": "wallace-landscapes-ltd",
-  "homepage": "https://gabe-woolaver.github.io/WallaceLandscapesLtd/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
+   
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -30,3 +29,4 @@
     "vite": "^7.1.2"
   }
 }
+
